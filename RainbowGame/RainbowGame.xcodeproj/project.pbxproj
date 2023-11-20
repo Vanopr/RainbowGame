@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B7D0EAA2B02B502002B6DFB /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D0EA82B02B502002B6DFB /* ColorModel.swift */; };
+		0B7D0EAB2B02B502002B6DFB /* RainbowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D0EA92B02B502002B6DFB /* RainbowCardView.swift */; };
+		0B7D0EAE2B02B514002B6DFB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D0EAD2B02B514002B6DFB /* Colors.swift */; };
+		0B7D0EB12B02BCD9002B6DFB /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D0EB02B02BCD9002B6DFB /* Background.swift */; };
+		0BFB57F52B0757A000F9C25A /* SavingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFB57F42B0757A000F9C25A /* SavingManager.swift */; };
+		0BFB57F72B07798900F9C25A /* ResultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFB57F62B07798900F9C25A /* ResultsManager.swift */; };
+		7964C3902B08E9E700DAE1CA /* UIKit + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964C38F2B08E9E700DAE1CA /* UIKit + Extensions.swift */; };
+		79E442642B041839009365F7 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E442632B041839009365F7 /* SettingsManager.swift */; };
+		EB4DD0BF2B076D4400381151 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4DD0BE2B076D4400381151 /* ResultCell.swift */; };
+		EB4DD0C12B076E2500381151 /* ResultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4DD0C02B076E2500381151 /* ResultsModel.swift */; };
+		EB559D922B010F03003E28E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB559D912B010F03003E28E4 /* AppDelegate.swift */; };
+		EB559D942B010F03003E28E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB559D932B010F03003E28E4 /* SceneDelegate.swift */; };
+		EB559D9E2B010F04003E28E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB559D9C2B010F04003E28E4 /* LaunchScreen.storyboard */; };
+		EB7419BA2B0150E600B48D3E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7419B92B0150E600B48D3E /* MainViewController.swift */; };
+		EB7419BC2B01510800B48D3E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7419BB2B01510800B48D3E /* GameViewController.swift */; };
+		EB7419BE2B01511A00B48D3E /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7419BD2B01511A00B48D3E /* ResultsViewController.swift */; };
+		EB7419C02B01514100B48D3E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7419BF2B01514100B48D3E /* SettingsViewController.swift */; };
+		EB7419C22B01515200B48D3E /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7419C12B01515200B48D3E /* RulesViewController.swift */; };
+		EB8BCC662B056B0400CD9E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8BCC652B056B0400CD9E96 /* Assets.xcassets */; };
+		EBEC65892B02924400E05784 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EBEC65882B02924400E05784 /* SnapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B7D0EA82B02B502002B6DFB /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		0B7D0EA92B02B502002B6DFB /* RainbowCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainbowCardView.swift; sourceTree = "<group>"; };
+		0B7D0EAD2B02B514002B6DFB /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		0B7D0EB02B02BCD9002B6DFB /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		0BFB57F42B0757A000F9C25A /* SavingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingManager.swift; sourceTree = "<group>"; };
+		0BFB57F62B07798900F9C25A /* ResultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsManager.swift; sourceTree = "<group>"; };
+		7964C38F2B08E9E700DAE1CA /* UIKit + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit + Extensions.swift"; sourceTree = "<group>"; };
+		79E442632B041839009365F7 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		EB4DD0BE2B076D4400381151 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		EB4DD0C02B076E2500381151 /* ResultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsModel.swift; sourceTree = "<group>"; };
+		EB559D8E2B010F03003E28E4 /* RainbowGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB559D912B010F03003E28E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB559D932B010F03003E28E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB559D9D2B010F04003E28E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB559D9F2B010F04003E28E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7419B92B0150E600B48D3E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EB7419BB2B01510800B48D3E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EB7419BD2B01511A00B48D3E /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		EB7419BF2B01514100B48D3E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EB7419C12B01515200B48D3E /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		EB8BCC652B056B0400CD9E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB559D8B2B010F03003E28E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEC65892B02924400E05784 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B7D0EA72B02B502002B6DFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B7D0EA82B02B502002B6DFB /* ColorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B7D0EAC2B02B514002B6DFB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0B7D0EAD2B02B514002B6DFB /* Colors.swift */,
+				7964C38F2B08E9E700DAE1CA /* UIKit + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0B7D0EAF2B02BCAE002B6DFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B7D0EA92B02B502002B6DFB /* RainbowCardView.swift */,
+				0B7D0EB02B02BCD9002B6DFB /* Background.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79E442652B041B4D009365F7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				79E442632B041839009365F7 /* SettingsManager.swift */,
+				0BFB57F42B0757A000F9C25A /* SavingManager.swift */,
+				0BFB57F62B07798900F9C25A /* ResultsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EB559D852B010F03003E28E4 = {
+			isa = PBXGroup;
+			children = (
+				EB559D902B010F03003E28E4 /* RainbowGame */,
+				EB559D8F2B010F03003E28E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB559D8F2B010F03003E28E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB559D8E2B010F03003E28E4 /* RainbowGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB559D902B010F03003E28E4 /* RainbowGame */ = {
+			isa = PBXGroup;
+			children = (
+				EB559DA52B010F43003E28E4 /* App */,
+				EB559DA72B01101F003E28E4 /* MainViewController */,
+				EB559DA82B011028003E28E4 /* GameViewController */,
+				EB559DAA2B011047003E28E4 /* ResultsViewController */,
+				EB559DAB2B011056003E28E4 /* SettingsViewController */,
+				EB559DA92B01103A003E28E4 /* RulesViewController */,
+				79E442652B041B4D009365F7 /* Services */,
+				EB559DA62B010FDF003E28E4 /* Support */,
+			);
+			path = RainbowGame;
+			sourceTree = "<group>";
+		};
+		EB559DA52B010F43003E28E4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EB559D912B010F03003E28E4 /* AppDelegate.swift */,
+				EB559D932B010F03003E28E4 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EB559DA62B010FDF003E28E4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0B7D0EAC2B02B514002B6DFB /* Extensions */,
+				EB559D9C2B010F04003E28E4 /* LaunchScreen.storyboard */,
+				EB8BCC652B056B0400CD9E96 /* Assets.xcassets */,
+				EB559D9F2B010F04003E28E4 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		EB559DA72B01101F003E28E4 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB7419B92B0150E600B48D3E /* MainViewController.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		EB559DA82B011028003E28E4 /* GameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB7419BB2B01510800B48D3E /* GameViewController.swift */,
+				0B7D0EAF2B02BCAE002B6DFB /* View */,
+				0B7D0EA72B02B502002B6DFB /* Model */,
+			);
+			path = GameViewController;
+			sourceTree = "<group>";
+		};
+		EB559DA92B01103A003E28E4 /* RulesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB7419C12B01515200B48D3E /* RulesViewController.swift */,
+			);
+			path = RulesViewController;
+			sourceTree = "<group>";
+		};
+		EB559DAA2B011047003E28E4 /* ResultsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB7419BD2B01511A00B48D3E /* ResultsViewController.swift */,
+				EB4DD0BE2B076D4400381151 /* ResultCell.swift */,
+				EB4DD0C02B076E2500381151 /* ResultsModel.swift */,
+			);
+			path = ResultsViewController;
+			sourceTree = "<group>";
+		};
+		EB559DAB2B011056003E28E4 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB7419BF2B01514100B48D3E /* SettingsViewController.swift */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB559D8D2B010F03003E28E4 /* RainbowGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB559DA22B010F04003E28E4 /* Build configuration list for PBXNativeTarget "RainbowGame" */;
+			buildPhases = (
+				EB559D8A2B010F03003E28E4 /* Sources */,
+				EB559D8B2B010F03003E28E4 /* Frameworks */,
+				EB559D8C2B010F03003E28E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainbowGame;
+			packageProductDependencies = (
+				EBEC65882B02924400E05784 /* SnapKit */,
+			);
+			productName = RainbowGame;
+			productReference = EB559D8E2B010F03003E28E4 /* RainbowGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB559D862B010F03003E28E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EB559D8D2B010F03003E28E4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = EB559D892B010F03003E28E4 /* Build configuration list for PBXProject "RainbowGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB559D852B010F03003E28E4;
+			packageReferences = (
+				EBEC65872B02924400E05784 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = EB559D8F2B010F03003E28E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB559D8D2B010F03003E28E4 /* RainbowGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB559D8C2B010F03003E28E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8BCC662B056B0400CD9E96 /* Assets.xcassets in Resources */,
+				EB559D9E2B010F04003E28E4 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB559D8A2B010F03003E28E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E442642B041839009365F7 /* SettingsManager.swift in Sources */,
+				EB7419C22B01515200B48D3E /* RulesViewController.swift in Sources */,
+				0B7D0EAE2B02B514002B6DFB /* Colors.swift in Sources */,
+				0BFB57F52B0757A000F9C25A /* SavingManager.swift in Sources */,
+				EB7419BC2B01510800B48D3E /* GameViewController.swift in Sources */,
+				0B7D0EAA2B02B502002B6DFB /* ColorModel.swift in Sources */,
+				EB7419BA2B0150E600B48D3E /* MainViewController.swift in Sources */,
+				EB559D922B010F03003E28E4 /* AppDelegate.swift in Sources */,
+				7964C3902B08E9E700DAE1CA /* UIKit + Extensions.swift in Sources */,
+				0BFB57F72B07798900F9C25A /* ResultsManager.swift in Sources */,
+				0B7D0EAB2B02B502002B6DFB /* RainbowCardView.swift in Sources */,
+				EB4DD0C12B076E2500381151 /* ResultsModel.swift in Sources */,
+				EB7419BE2B01511A00B48D3E /* ResultsViewController.swift in Sources */,
+				EB559D942B010F03003E28E4 /* SceneDelegate.swift in Sources */,
+				EB7419C02B01514100B48D3E /* SettingsViewController.swift in Sources */,
+				EB4DD0BF2B076D4400381151 /* ResultCell.swift in Sources */,
+				0B7D0EB12B02BCD9002B6DFB /* Background.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB559D9C2B010F04003E28E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB559D9D2B010F04003E28E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB559DA02B010F04003E28E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB559DA12B010F04003E28E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB559DA32B010F04003E28E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RainbowGame/Support/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "RainBow Game";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myself.RainbowGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB559DA42B010F04003E28E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RainbowGame/Support/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "RainBow Game";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myself.RainbowGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB559D892B010F03003E28E4 /* Build configuration list for PBXProject "RainbowGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB559DA02B010F04003E28E4 /* Debug */,
+				EB559DA12B010F04003E28E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB559DA22B010F04003E28E4 /* Build configuration list for PBXNativeTarget "RainbowGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB559DA32B010F04003E28E4 /* Debug */,
+				EB559DA42B010F04003E28E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EBEC65872B02924400E05784 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EBEC65882B02924400E05784 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBEC65872B02924400E05784 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EB559D862B010F03003E28E4 /* Project object */;
+}

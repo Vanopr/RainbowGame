@@ -2,70 +2,65 @@
 
 <img width="1337" alt="Снимок экрана 2023-11-20 в 16 25 44" src="https://github.com/Vanopr/RainbowGame/assets/118197831/70fd8c0e-e027-4f51-b381-08a722402f2c">
 
-## ФУНКЦИИ ПРИЛОЖЕНИЯ:
-
-► Самый большой выбор настроек
-
-► Настройка скорости игры!
-
-► Классическая игра + Игра с проверкой заданий
-
-► Статистика всех игр
-
-► Сортировка игр по дате и результату
-
-► Различное начертание слов, размер шрифта и расположение на экране
-
-► Можно менять цвет фона и 12 игровых цветов
 
 
-Игра «Радуга» использует известный в психологии «Эффект Струпа»: когда цвет слова не совпадает с написанным, прочитать его становится труднее.
+## APPLICATION FEATURES:
+► The widest range of settings
 
-Благодаря этому эффекту, а также различным настройкам игры:
+► Game speed adjustment!
 
-► в работу включаются оба полушария мозга
+► Classic game + Task verification game
 
-► повышается скорости реакции
+► Statistics for all games
 
-► усиливается концентрация внимания
+► Sorting games by date and result
 
-► включается параллельный процессинг — умение выполнять сразу несколько действий одновременно.
+► Different font styles, font size, and screen placement
 
+► You can change the background color and 12 game colors
 
-Все это способствует переходу в высокопродуктивное состояние (high performance state, HPS), при котором мозг начинает работать более эффективно, гораздо быстрее решая сложные задачи.
+The game "Rainbow" uses the well-known "Stroop Effect" in psychology: when the color of the word does not match what is written, reading it becomes more difficult.
 
+Thanks to this effect and various game settings:
 
-ПРАВИЛА ИГРЫ
+► Both brain hemispheres are activated
 
-На экране появляется слово, обозначающее цвет, например: написано слово "синий". Нужно произнести вслух цвет слова. Например, если слово "синий" написано зеленым цветом, то мы говорим вслух "зеленый".
+► Reaction speed is increased
 
+► Attention concentration is enhanced
 
-ВРЕМЯ ИГРЫ
+► Parallel processing is activated - the ability to perform multiple actions simultaneously.
 
-Обычно продолжительность игры — 10-15 минут. Для перехода в состояние высокой продуктивности большинству людей этого времени хватает.
+All of this contributes to entering a high-performance state (HPS), where the brain starts working more efficiently, solving complex tasks much faster.
 
-Чтобы учесть все запросы пользователей, мы предусмотрели время игры от 1 до 20 минут. Его можно менять в любое время в Настройках игры.
+GAME RULES:
 
+A word indicating a color appears on the screen, for example: the word "blue" is written. You need to verbally say the color of the word. For example, if the word "blue" is written in green, then we say "green" out loud.
 
-НАСТРОЙКИ ИГРЫ
+## GAME TIME:
 
-В игре предусмотрен самый большой выбор настроек:
+The usual game duration is 10-15 minutes. For most people, this time is sufficient to transition to a high-productivity state.
 
-- Время игры
+To accommodate all user requests, we have provided game time from 1 to 20 minutes. It can be changed at any time in the game settings.
 
-- Скорость игры
+## GAME SETTINGS:
 
-- Проверка заданий (вкл/ выкл)
+The game offers the widest range of settings:
 
-- Цвета букв: 12 цветов
+Game time
 
-- Размер букв
+Game speed
 
-- Подложка для букв
+Task verification (on/off)
 
-- Расположение слов на экране - случайное или по центру
+Letter colors: 12 colors
 
-- Частота совпадения цвета и названия
+Letter size
 
+Background for letters
 
-Желаем Вам увлекательной игры, быстрого перехода в высокопродуктивное состояние и оперативного решения необходимых задач!
+Word placement on the screen - random or center
+
+Frequency of color and name matching
+
+Wishing you an exciting game, a quick transition to a high-productivity state, and prompt resolution of necessary tasks!
